@@ -71,15 +71,15 @@ header{
 	position: relative;
 }
 h1{
-	font-family: 'Julius Sans One', sans-serif;
-	font-weight: normal; 
+	font-family: 'Expletus Sans', cursive;
+	font-weight: lighter; 
    font-style: normal;
     color: white;
 	text-align: right;
-	font-size: 40px;
+	font-size: 47px;
 	display: inline-block;
 	position: absolute;
-	top: 20%;
+	top: 16%;
 	right: 0px;
 	}
 
@@ -170,14 +170,14 @@ text-align: center;
 
 
 #domicilio{
-	background-image: url("IMAGENES/LOGO/DIRECCION.png");
+	background-image: url("IMAGENES/LOGO_DIRECCION.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 25px;
 
 }
 #Fecha_de_nacimiento{
-	background-image: url("IMAGENES/LOGO/FECHA/NAC.png");
+	background-image: url("IMAGENES/LOGO_FECHA_NAC.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 25px;

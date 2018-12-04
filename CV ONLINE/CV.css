@@ -1,0 +1,251 @@
+/* RESET-------------------------------------------- */
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+} */
+/* ----------------------------------------TERMINA RESET */
+
+
+*{
+	box-sizing: border-box;
+	font-family: helvetica, arial, sans-serif;
+}
+body{
+	margin: 0px;
+	background-color: rgb(5, 5, 112);
+	background: linear-gradient(rgb(1, 3, 3), rgb(2, 2, 80)75%,rgb(6, 6,120) 93%, rgba(4, 4, 160)100%);
+}
+
+.contenedor, #navegacion {
+	max-width: 800px;
+	min-width: 610px;
+	margin: auto;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+	}
+
+nav{
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	background-color: rgb(40, 87, 241);
+	padding: 15px 0px;
+	margin: 0px auto;
+	text-align: center;
+		}
+
+nav ul#navegacion li{
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	margin: 0px 2%;
+	}
+	ul#navegacion{
+		padding: 0px;
+	}
+
+nav a:hover{
+	font-weight: bold;
+}
+header{
+	position: relative;
+}
+h1{
+	font-family: 'DatalegreyaDot'; 
+	font-weight: normal; 
+   font-style: normal;
+    color: white;
+	text-align: right;
+	font-size: 60px;
+	display: inline-block;
+	position: absolute;
+	top: 10%;
+	right: 0px;
+	}
+
+
+#Formacion div{
+	background-color:rgb(224, 236, 250);
+	padding: 0px 15px;
+	padding-bottom: 15px;
+	padding-top: 2px;	
+	margin: 2px;
+}
+
+p{
+	text-align: justify;
+}
+
+.Perfil h3 > span{ display: none;}
+.Perfil h3:hover > span{
+	 display: block; 
+	 position: absolute; /*ABSOLUTE PARA TOOLTIP, RELATIVE PARA ABRIR */
+	 background-color: rgba(100, 100, 100, .9); 
+	 padding: 10px 20px; 
+	 border-radius: 5px;
+	 margin-top: 0px;
+	 margin-left: 10%;
+	 max-width: 300px;
+	 font-size: 14px;
+	 font-weight: normal;
+	 color: #fff;
+	 z-index: 2;
+	}
+
+
+.sticky_bar_pie{
+	position: fixed;
+	bottom: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 80px;
+	height: 145px;
+	padding: 5px;
+	background: transparent;
+	margin: 10px;
+	z-index: 5;
+	}
+h2{
+	position: sticky;
+	top: 48px;
+	background-color: rgba(250, 222, 67, 0.925);
+	padding: 10px;
+	color: rgb(24, 65, 199);
+}
+.Perfil{
+	padding: 15px 0px;
+}
+.contenido{
+	background-color: rgb(224, 236, 250);
+	padding: 5px 25px;
+	overflow: hidden;
+	}
+hr{
+	border-color: lightgray;
+}
+.encabezado{
+	background-image: url('https://thumbs.gfycat.com/CompetentPoliteColt-poster.jpg');
+	padding-top: 30px;
+	background-size: cover;
+	background-position-y: 90%
+	}
+
+.DatosPersonales{
+	color: white;
+	font-size: 16px;
+}
+#Fecha_de_nacimiento{
+	text-align: right;
+	float: right;
+}
+.ImagenPerfil{
+	height: 160px;
+	width: 160px;
+	margin-right: 20px;
+}
+#Habilidades>.contenido{
+padding: 5px 1px;
+text-align: center;
+}
+
+
+#domicilio{
+	background-image: url("IMAGENES/LOGO/DIRECCION.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 25px;
+
+}
+#Fecha_de_nacimiento{
+	background-image: url("IMAGENES/LOGO/FECHA/NAC.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 25px;
+}
+
+.habilidades{
+	float: left;
+	width: 25%;
+}
+.habilidades h3{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.habilidades img{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 2%;
+	border-radius: 10%;
+
+}
+
+.boton{
+	height: 60px;
+	width: 60px;
+	background: rgb(0, 122, 185);
+	padding: 10px;
+	border-radius: 50%;
+	margin: 5px;
+}
+#tel{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
+#lin{
+	padding: 0px;
+	background-color: white;
+	background-image: url("IMAGENES/LINKEDIN.png");
+	background-size: 69px;
+	background-position: -5px -5px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#mail{
+	position: absolute;
+	bottom: 0px;
+	right: 75px;
+}
+
+	#Formacion .Carrera, #Formacion .Licenciatura, #Formacion .Posgrado{
+		background-color: rgb(195, 221, 250);
+
+	}
+	#Formacion .Curso strong{
+		font-weight: normal;
+			
+	}
+	.Licenciatura strong, .Posgrado strong{
+		text-transform: uppercase;
+	}
+	#Portfolio h3{
+		color: white;
+	}
+
+	a.Portfolio{
+text-decoration: underline;
+	}

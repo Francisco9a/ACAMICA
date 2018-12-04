@@ -170,14 +170,14 @@ text-align: center;
 
 
 #domicilio{
-	background-image: url(imagenes/LOGO\ DIRECCION.png);
+	background-image: url("imagenes/LOGO/DIRECCION.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 25px;
 
 }
 #Fecha_de_nacimiento{
-	background-image: url(imagenes/LOGO\ FECHA\ NAC.png);
+	background-image: url("imagenes/LOGO/FECHA/NAC.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 25px;
@@ -218,7 +218,7 @@ text-align: center;
 #lin{
 	padding: 0px;
 	background-color: white;
-	background-image: url(imagenes/LINKEDIN.png);
+	background-image: url("imagenes/LINKEDIN.png");
 	background-size: 69px;
 	background-position: -5px -5px;
 	position: absolute;

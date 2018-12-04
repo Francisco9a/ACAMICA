@@ -71,15 +71,15 @@ header{
 	position: relative;
 }
 h1{
-	font-family: 'DatalegreyaDot'; 
+	font-family: 'Julius Sans One', sans-serif;
 	font-weight: normal; 
    font-style: normal;
     color: white;
 	text-align: right;
-	font-size: 60px;
+	font-size: 40px;
 	display: inline-block;
 	position: absolute;
-	top: 10%;
+	top: 20%;
 	right: 0px;
 	}
 
